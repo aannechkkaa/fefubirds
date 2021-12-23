@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Montserrat-light;
+    src: url(Fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-black;
+    src: url(Fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-mediumItalic;
+    src: url(Fonts/Montserrat/Montserrat-MediumItalic.ttf);
+}
+.upper{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Hwrapper{
+    margin-top: 0vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.UpperLink {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: "Montserrat-light";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.UpperLink:hover{
+    font-family: "Montserrat-black";
+}
+a{
+    text-decoration: none;
+}
+
+.Septum{
+    border-left: 3px solid white;
+    height: 40px;
+    margin-left: 25px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    bottom:0;
+}
+.UpperMobile{
+  display: none;
+}
+.uppermenumobile{
+  display: none;
+}
+.Hwrappermobile{
+  display: none;
+}
+@media screen and (max-width: 1400px){
+    .upper{
+        height: 150px;
+    }
+    .Hwrapper{
+        width: 800px;
+    }
+    #th{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+  .UpperMobile{
+    display: block;
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 10vw;
+    order: 1;
+    padding: 20px 30px 10px 10px;
+    padding-left: 20px;
+  }
+  .buttomMenu{
+      display: flex;
+      height: 3vw;
+      width: 9vw;
+      padding: 0;
+      border: 0;
+      outline: none;
+      background-color: white;
+  }
+.upper{
+  display: none;
+}
+.Septum{
+    display: none;
+}
+.Hwrapper{
+  display:none;
+  position: static;
+  margin-top: -40vw;
+  top: 5vw;
+  justify-content: left;
+}
+.uppermenumobile{
+  display: none;
+  position: fixed;
+  background-color: rgb(41, 41, 41);
+  left: -5px;
+  top: 0px;
+  width: 30%;
+  height: 100%;
+  z-index: 16;
+  justify-content: flex-start;
+}
+.Hwrappermobile{
+  position: static;
+  margin-top: 10vw;
+  justify-content: left;
+}
+.UpperLinkmob {
+    font-size: 2.2vw;
+    margin-left: 5vw;
+    font-family: "Montserrat-light";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    margin-top: 6vw;
+    margin-bottom: 15px;
+}
+.footer{
+  position: relative;
+  bottom:0;
+  display: flex;
+  background-color: rgb(41, 41, 41);
+  width: 100%;
+  height: 10vw;
+}
+.burgermenu{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 2vw;
+}
+.hidebutton{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 5vw;
+  margin-left: 18vw;
+}
+.MenuClose{
+  width: 6vw;
+}
+}

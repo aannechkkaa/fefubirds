@@ -1,0 +1,228 @@
+@font-face {
+    font-family: Montserrat-light;
+    src: url(Fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-black;
+    src: url(Fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-mediumItalic;
+    src: url(Fonts/Montserrat/Montserrat-MediumItalic.ttf);
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100vw;
+    min-height: 100%;
+    margin: 0;
+
+    overflow-x: hidden;
+
+    background-color: #abbaa7;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.birdLeft{
+    transform: rotate(90deg);
+    width: 40vw;
+
+}
+.birdRight{
+    transform: rotate(-90deg);
+    width: 40vw;
+
+}
+
+.TitleBackground {
+    border-width: 1vw;
+    border-color: #50544f;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 50%;
+    height: 30vw;
+    z-index: 1;
+
+    margin-bottom: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: "Montserrat-mediumItalic";
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.upperBox{
+    position: relative;
+    top: 4vw;
+    left: 37%;
+
+    width: 25%;
+    border-width: 1vw;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: #50544f;
+    height: 5vw;
+    z-index: 6;
+
+    font-family: "Montserrat-light";
+    font-size: 4vw;
+    color: rgb(255, 250, 250);
+    font-style: normal;
+    line-height: 1.2;
+    text-align: center;
+}
+.logotext{
+    font-family: "Montserrat-light";
+    font-style: normal  ;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    text-align: start;
+}
+.inputBox{
+    width: 70%;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-family: "Montserrat-lightItalic";
+}
+
+.textBox{
+    font-size: 1.5vw;
+    width: 100%;
+    height: 3vw;
+}
+
+.buttonBox{
+    width: 100%;
+    margin-top: 3vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button{
+    height: 3vw;
+    width: 35%;
+
+    margin-right: 3vw;
+    margin-left: 3vw;
+
+    font-family: "Montserrat-light";
+    font-size: 1vw;
+
+    background-color: #202020;
+    color: #ffffff;
+}
+
+.Button:hover{
+    font-family: "Montserrat-black";
+    cursor: pointer;
+}
+@media screen and (max-width: 700px){
+  .TitleBackground {
+      border-width: 1.5vw;
+      border-color: #50544f;
+      border-style: solid;
+      background-color: #ffffff;
+      width: 96vw;
+      height: 96vw;
+      z-index: 1;
+
+      margin-bottom: 3vw;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+      font-family: "Montserrat-mediumItalic";
+      color: rgb(0, 0, 0);
+      font-style: italic;
+      line-height: 1.2;
+      text-align: center;
+  }
+  .upperBox{
+      position: relative;
+      top: 4vw;
+      left: 30%;
+
+      width: 40%;
+      border-width: 1.3vw;
+      border-color: #ffffff;
+      border-style: solid;
+      background-color: #50544f;
+      height: 10vw;
+      z-index: 6;
+      padding-top: 2.5vw;
+      font-family: "Montserrat-light";
+      font-size: 7vw;
+      color: rgb(255, 250, 250);
+      font-style: normal;
+      line-height: 1.2;
+      text-align: center;
+  }
+  .logotext{
+      font-family: "Montserrat-light";
+      font-style: normal  ;
+      font-size: 5vw;
+      margin-top: -30vw;
+      margin-bottom: 5vw;
+  }
+  .inputBox{
+      width: 80vw;
+      height: 10vw;
+      margin-top: 3vw;
+      font-size: 2.5vw;
+      font-style: normal;
+      font-family: "Montserrat-lightItalic";
+  }
+  .textBox{
+      font-size: 1.5vw;
+      width: 100%;
+      height: 7vw;
+  }
+  .buttonBox{
+      width: 100vw;
+      margin-top: 3vw;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .Button{
+      height: 6vw;
+      width: 35%;
+
+      margin-top: 6vw;
+
+      font-family: "Montserrat-light";
+      font-size: 2.5vw;
+
+      background-color: #202020;
+      color: #ffffff;
+  }
+}

@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Montserrat-light;
+    src: url(Fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-black;
+    src: url(Fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-mediumItalic;
+    src: url(Fonts/Montserrat/Montserrat-MediumItalic.ttf);
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100vw;
+    min-height: 100%;
+    margin: 0;
+
+    overflow-x: hidden;
+
+    background-color: #abbaa7;
+}
+.content{
+    display: flex;
+}
+.half{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TitleBackground {
+    border-width: 1vw;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(80, 84, 79);
+    width: 80%;
+    height: 7vw;
+    z-index: 6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5vw;
+    margin-left: 5vw;
+    font-size: 4vw;
+    font-family: "Montserrat-mediumItalic";
+    color: rgb(255, 250, 250);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+    order: 2;
+}
+
+.birdLine{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    width: 45vw;
+    height: 4.5vw;
+    order: 1;
+}
+.inputBird{
+  width: 38vw;
+  height: 6.5vw;
+  background-color: #50544f;
+  margin-left: 56vw;
+  margin-top: -7.5vw;
+  display: flex;
+  padding-right: 1vw;
+}
+.textBox{
+  background-color: rgb(255, 255, 255);
+  width: 35vw;
+  height: 3.5vw;
+  margin-left: 1.1vw;
+  margin-top: 1.2vw;
+  font-family: "Montserrat-mediumItalic";
+  font-size: 1.5vw;
+}
+.wordsBackground{
+  width: 100vw;
+  height: 5vw;
+  background-color: white;
+  margin-top: 4vw;
+  padding-left: 2vw;
+}
+.birdLine2{
+  width: 45vw;
+  height: 4.5vw;
+  margin-top: 2.5vw;
+  transform: rotate(180deg);
+}
+.birdsLinksBox{
+  margin-top: 6vw;
+  height: 50vw;
+  width: 100%;
+  padding-left: 4vw;
+  display:flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap ;
+}
+.birdsLinks{
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+.birdLinkTitle{
+font-family: "Montserrat-mediumItalic";
+font-size: 4vw;
+display: block;
+}
+.wordsbutton{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+.searchButton{
+padding: 0;
+border: none;
+font: inherit;
+color: inherit;
+background-color: transparent;
+cursor: pointer;
+margin-top: 0.5vw;
+}
+.search{
+  width: 4vw;
+  padding-left: 1vw;
+}
+.word{
+  font-size: 2.5vw;
+  font-family: "Montserrat-light";
+  color: black;
+  line-height: 1.2;
+}
+.word:hover{
+    font-family: "Montserrat-black";
+}
+a{
+    text-decoration: none;
+}
+
+  @media screen and (max-width: 700px){
+    .TitleBackground {
+      border-width: 2vw;
+      border-color: rgb(255, 255, 255);
+      border-style: solid;
+      background-color: rgb(80, 84, 79);
+      width: 96vw;
+      margin-left: 0vw;
+      margin-top: -0.3vw;
+      height: 10vw;
+      opacity: 1;
+      justify-content: center;
+      align-items: center;
+      font-size: 6.5vw;
+      font-family: "Montserrat-mediumItalic";
+      color: rgb(255, 250, 250);
+      font-style: italic;
+      text-align: center;
+      order: 1;
+    }
+    .birdLine2{
+      width: 45vw;
+      height: 4.5vw;
+    }
+    .half{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inputBird{
+      margin-top: 3vw;
+      margin-left: 0vw;
+      width: 100vw;
+      height: 10.5vw;
+      background-color: #50544f;
+      display: flex;
+      padding-right: 1vw;
+      display: flex;
+    }
+    .textBox{
+      background-color: rgb(255, 255, 255);
+      width: 80vw;
+      height: 5vw;
+      margin-left: 6vw;
+      margin-top: 2vw;
+      font-family: "Montserrat-mediumItalic";
+      font-size: 2.3vw;
+    }
+    .search{
+      width: 5.5vw;
+      padding-left: 1vw;
+    }
+    .birdLine{
+        position: relative;
+        margin-top: 3vw;
+        margin-left: 55vw;
+        width: 45vw;
+        height: 4.5vw;
+        order: 2;
+    }
+    .birdsLinksBox{
+      margin-top: 6vw;
+      height: 60vw;
+      width: 100%;
+      padding-left: 4vw;
+      display:flex;
+      align-items: left;
+      justify-content: left;
+      flex-wrap: wrap;
+    }
+
+  }
