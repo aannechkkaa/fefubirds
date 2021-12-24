@@ -23,9 +23,9 @@
                 <p class = "listenText">
                     Слушать щебет
                 </p>
-                <img src = "img/PLAY.png" style = "height: 70%">
+                <img src = "img/PLAY.png" style = "height: 70%" class="listenelement">
                 </img>
-                <img src = "img/Audio.png" style = "height: 80%">
+                <img src = "img/Audio.png" style = "height: 80%" class="listenelement2">
                 </img>
             </div>
         <div class = "informationBackground">
@@ -85,3 +85,4 @@
         </div>
     </body>
 </html>
+
